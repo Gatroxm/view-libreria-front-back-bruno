@@ -1,0 +1,26 @@
+meta {
+  name: Crear libro
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{url}}libros
+  body: json
+  auth: none
+}
+
+body:json {
+  { 
+    "id": "3",
+    "titulo": "tercer libro",
+    "autor": "Andres Felipe",
+    "editorial": "Editorial B",
+    "categoria": "ficción",
+    "fecha": "2020-02-01",
+    "paginas": "100",
+    "stock": "100",
+    "imagen": "https://www.libros.com/imagenes/tercer-libro.jpg",
+    "disponibilidad": true 
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "libros": [
+    {
+      "id": "1",
+      "titulo": "primer libro data",
+      "autor": "Andres Felipe data",
+      "editorial": "Editorial A data",
+      "categoria": "ficción sss",
+      "fecha": "2020-01-22",
+      "paginas": "100",
+      "stock": "100",
+      "imagen": "https://www.libros.com/imagenes/primer-libro.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "2",
+      "titulo": "segundo libro",
+      "autor": "Andres Felipe",
+      "editorial": "Editorial B",
+      "categoria": "ficción",
+      "fecha": "2020-02-01",
+      "paginas": "100",
+      "stock": "100",
+      "imagen": "https://www.libros.com/imagenes/segundo-libro.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "09b7",
+      "titulo": "las marianas 2",
+      "autor": "Andres",
+      "editorial": "norma",
+      "categoria": "teror",
+      "fecha": "2024-12-19",
+      "paginas": 200,
+      "stock": 20,
+      "imagen": "nueva imagen",
+      "disponibilidad": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Crud-vue",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

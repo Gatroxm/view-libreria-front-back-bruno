@@ -1,0 +1,25 @@
+meta {
+  name: Editar libros
+  type: http
+  seq: 5
+}
+
+put {
+  url: {{url}}libros/3
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "titulo": "tercer libro",
+    "autor": "juan Felipe",
+    "editorial": "Editorial c",
+    "categoria": "ficción",
+    "fecha": "2020-02-01",
+    "paginas": "100",
+    "stock": "100",
+    "imagen": "https://www.libros.com/imagenes/tercer-libro.jpg",
+    "disponibilidad": true
+  }
+}
